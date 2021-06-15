@@ -1,0 +1,32 @@
+.main{
+    margin: 0 auto;
+    width: 30%;
+    height: 45%;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+.slika{
+    width: inherit;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+.mojDiv{
+    height: 400px;
+    width: 200px;
+    background-color: blue;
+    margin: 5px;
+    display: inline-block;
+
+}
+.mojDiv: :hover{
+    height 500 px
+    width 200 px
+}
+.mojDiv:hover {
+    background-color: brown;
+}
+.activeDiv {
+    background-color: coral;
+    
+}

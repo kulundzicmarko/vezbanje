@@ -1,0 +1,27 @@
+
+body{
+    background-color: rgb(43, 102, 102);
+}
+
+.container{
+    height: 50px;
+    background-color: pink;
+    display: flex;
+    
+}
+.child1{
+    height: 100px;
+    background-color: purple;
+    width: 10px;
+}
+.child2{
+    height: 100px;
+    background-color: red;
+    width: 10px;
+}
+.child3{
+    height: 100px;
+    background-color: sienna;
+    width: 10px;
+}
+
