@@ -8,9 +8,26 @@
   
  
   .header {
-    background-color: #f1f1f1;
+    height: 300px;
     padding: 20px;
     text-align: center;
+    background-image: url("pcelinjak.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font: 2em sans-serif;
+
+   
+  }
+
+  .header h1 span{
+    transition: .5s linear
+  }
+  .header h1:hover span{
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff, 
+                 0 0 40px #fff;
   }
   
   
@@ -44,11 +61,16 @@
  
   .column.side {
     width: 25%;
+    background-image: url("sacee.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    height: 900px;
   }
   
  
   .column.middle {
     width: 50%;
+
   }
   
   
@@ -64,10 +86,13 @@
       width: 100%;
     }
   }
-  
+  .slika{
+    width: 40%;
+    height: 70%;
+  }
  
   .footer {
-    background-color: #f1f1f1;
+    background-color: #b89090;
     padding: 10px;
     text-align: center;
   }
