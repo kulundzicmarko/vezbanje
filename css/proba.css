@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+    min-height: 100vh;
+}
+
+.grid{
+    grid-gap: 3rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.grid-item{
+    background-color: white;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem red;
+    cursor: pointer;
+    transition: 0.2s;
+    width: 20vw;
+}
+
+.grid-item:hover{
+    transform: translateY(-0,5%);
+    box-shadow: 0 4rem 8rem rgba(0,0, 0, 0.5);
+
+}
+
+.card-img{
+    display: block;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+
+}
+
+.card-content{
+    padding: 3rem;
+}
+.card-header{
+    font-size: 3rem;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 1.5rem;
+}
+.card-btn{
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: blue;
+    background-color: cornsilk;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+
+}
+
+.card-btn span{
+    margin-left: 1rem;
+    transition: 0.2s;
+}
+.card-btn:hover,
+.card-btn:active{
+    background-color: cyan;
+}
+.card-btn:hover span,
+.card-btn:active span{
+    margin-left: 1.5rem;
+
+}
+
+@media only screen and (max-width:60em){
+    body {
+        padding: 3rem;
+    }
+}
+.grid {
+    
+}
+
+   
+
+
+
